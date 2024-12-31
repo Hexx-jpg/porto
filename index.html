@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Portofolio Naufal</title> 
+  <link rel="stylesheet" href="styles.css"> 
+ </head> 
+ <body> 
+  
+  <!-- Header --> 
+  <header> 
+   <div class="logo">
+     Hexx
+   </div> 
+   <nav> 
+    <ul class="nav-links"> 
+     <li><a href="#about">About</a></li> 
+     <li><a href="#projects">Projects</a></li> 
+     <li><a href="#contact">Contact</a></li> 
+    </ul> 
+   </nav> 
+  </header> 
+  
+  <!-- Hero Section --> 
+  <section id="hero"> 
+   <div class="hero-content"> 
+    <h1>Hi, I'm <span class="highlight">Ahmad Naufal Sya'bani Hermawan</span></h1> 
+    <p>Photography / Videography / Graphic Design </p> 
+   </div> 
+  </section> 
+  
+  <!-- About Section --> 
+  <section id="about"> 
+   <h2>About Me</h2> 
+   <img src="bg kuning.png" alt="Ahmad Naufal Sya'bani Hermawan" class="about-image">
+   <p>My name is Ahmad Naufal Sya'bani Hermawan, commonly called Naufal, and I am a student at SMA Negeri Model Terpadu Bojonegoro. I have hobbies in photography, videography, and graphic design, and I often upload my work to Instagram and YouTube. Due to budget limitations, I create these works using my smartphone and laptop, and sometimes borrow the school's camera. In graphic design, I am still learning by making gfx or recreating other people's designs as part of my practice. In the future, I plan to create my own original designs with various references from outside. Through this portfolio website, I aim to let others get to know me better and showcase some of the work I have created.</p> 
+  </section> 
+  
+  <!-- Projects Section --> 
+  <section id="projects"> 
+   <h2>My Projects</h2> 
+   <div class="projects-grid"> 
+    <div class="project-card"> 
+     <img src="Film Dokumenter.png" alt="Project 1" class="rounded-image">
+    </a> 
+     <h3>Ruang Sehat, Dunia Digital</h3>
+     <p>"Ruang Sehat, Dunia Digital" is a short documentary film that I made for a school project.</p> 
+    </div> 
+    <div class="project-card"> 
+     <img src="1 day 1 photo.jpg" alt="Project 2" class="rounded-image"> 
+     <h3>1 Day, 1 Photo</h3> 
+     <p>A project that I decided to do as a learning medium to better understand photography techniques. I uploaded all the photos on Instagram. </p> 
+    </div> 
+    <div class="project-card"> 
+     <img src="menang.jpg" alt="Project 3" class="rounded-image"> 
+     <h3>Win content creative competition</h3> 
+     <p>Win the content creative competition with my friend. (The guy in my side is him)</p> 
+    </div> 
+    <div class="project-card"> 
+      <img src="Video lawan narkoba.jpg" alt="Project 4" class="rounded-image"> 
+      <h3>Anti-drug Video Project</h3> 
+      <p>- - - - -</p> 
+     </div> 
+   </div> 
+  </section> 
+  
+  <!-- Contact Section --> 
+  <section id="contact"> 
+   <h2>Contact Me</h2> 
+   <span class="highlight"><u><h2>(+62 858-5614-4039)</h2></u></span>
+   <h3>or</h3> 
+   <form> 
+    <input type="text" placeholder="Your Name" required> 
+    <input type="email" placeholder="Your Email" required> <textarea placeholder="Your Message" rows="5" required></textarea> <button type="submit">Send Message</button>
+    <p><u>This feature is currently unavailable.</u></p> 
+    <h5><u><span class="highlight">(I still learning how to code a program properly and correctly)</span></u></h5>
+   </form> 
+  </section> 
+  
+  <!-- Footer --> 
+  <footer> 
+   <p>© 2024 naufalahmad. All rights reserved.</p> 
+  </footer> 
+  <script src="script.js"></script> 
+  
+  <!-- Modal untuk menampilkan gambar --> 
+  <div id="imageModal" class="modal"> <span class="close" onclick="closeModal()">×</span> 
+   <img id="modalImage" class="modal-content"> 
+   <div id="caption"></div> 
+  </div> 
+ </body>
+</html>
